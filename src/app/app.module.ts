@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { BankComponent } from './components/bank/bank.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './modules/material/material.module';
+import { ViewTransactionsComponent } from './components/view-transactions/view-transactions.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BankComponent
+    BankComponent,
+    ViewTransactionsComponent
   ],
   imports: [
     BrowserModule,

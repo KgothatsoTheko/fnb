@@ -24,26 +24,35 @@
         <p class="no-margin">63022441248</p>
         </div>
         <div>
-            <button mat-flat-button class="amount">R800</button>
+            <button mat-flat-button class="amount" (click)="goToTransactions()">R800</button>
         </div>
     </div><br>
     <mat-divider></mat-divider><br>
     <div class="center-center flex gap-1em">
-        <mat-card class="card border-radius-10px">
-            <span class="material-symbols-outlined">
-                credit_card
-            </span>
-        </mat-card>
-        <mat-card class="card border-radius-10px">
-            <span class="material-symbols-outlined">
-                description
-            </span>
-        </mat-card>
-        <mat-card class="card border-radius-10px">
-            <span class="material-symbols-outlined">
-            more_horiz
-            </span>
-        </mat-card>
+        <div class="flex column">
+            <mat-card class="card border-radius-10px">
+                <span class="material-symbols-outlined icons">
+                    credit_card
+                </span>
+            </mat-card>
+            <p class="center-center flex">My cards</p>
+        </div>
+        <div class="flex column">
+            <mat-card class="card border-radius-10px">
+                <span class="material-symbols-outlined icons">
+                    description
+                </span>
+            </mat-card>
+            <p class="center-center flex">Statement</p>
+        </div>
+        <div class="flex column">
+            <mat-card class="card border-radius-10px">
+                <span class="material-symbols-outlined icons">
+                more_horiz
+                </span>
+            </mat-card>
+            <p class="center-center flex">More</p>
+        </div>
     </div>
 </mat-card><br>
 <div class="center-center flex">
@@ -113,7 +122,7 @@
 <div class="center-center flex gap-1em">
     <div class="flex column text-center">
         <mat-card class="card border-radius-10px">
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined icons">
                 phone_android
                 </span>
         </mat-card>
@@ -122,7 +131,7 @@
     </div>
     <div class="flex column text-center">
         <mat-card class="card border-radius-10px">
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined icons">
                 lightbulb
                 </span>
         </mat-card>
@@ -130,7 +139,7 @@
     </div>
     <div class="flex column text-center">
         <mat-card class="card border-radius-10px">
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined icons">
             casino
             </span>
         </mat-card>
@@ -138,7 +147,7 @@
     </div>
     <div class="flex column text-center">
         <mat-card class="card border-radius-10px">
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined icons">
             more_vert
             </span>
         </mat-card>
@@ -165,7 +174,7 @@
 <div class="center-center flex gap-1em">
     <div class="flex column text-center">
         <mat-card class="card border-radius-10px">
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined icons">
                 account_balance_wallet
                 </span>
         </mat-card>
@@ -174,7 +183,7 @@
     </div>
     <div class="flex column text-center">
         <mat-card class="card border-radius-10px">
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined icons">
                 bolt
                 </span>
         </mat-card>
@@ -182,7 +191,7 @@
     </div>
     <div class="flex column text-center">
         <mat-card class="card border-radius-10px">
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined icons">
             compare_arrows
             </span>
         </mat-card>
@@ -190,7 +199,7 @@
     </div>
     <div class="flex column text-center">
         <mat-card class="card border-radius-10px">
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined icons">
             soap
             </span>
         </mat-card>

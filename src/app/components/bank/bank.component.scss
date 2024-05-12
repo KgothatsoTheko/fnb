@@ -1,3 +1,7 @@
+// colors
+$primary:#009997;
+
+
 
 // flex
 .flex {
@@ -117,10 +121,10 @@
 
 
 .amount {
-    border: 1px solid green;
+    border: 1px solid $primary;
     border-radius: 20px;
     color: antiquewhite !important;
-    background-color: green !important;
+    background-color: $primary !important;
 }
 
 .apply {
@@ -136,6 +140,10 @@
     border-radius: 20px;
     color: antiquewhite !important;
     background-color: orangered !important;
+}
+
+.icons {
+    color: $primary;
 }
 
 
@@ -172,7 +180,7 @@
   }
   
   .slides::-webkit-scrollbar-thumb {
-    background: black;
+    background: white;
     border-radius: 10px;
   }
   
