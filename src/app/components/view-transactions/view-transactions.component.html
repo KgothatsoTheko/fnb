@@ -16,7 +16,7 @@
             </span>
         </div>
         <div>
-            <span class="material-symbols-outlined" (click)="goBack()">
+            <span class="material-symbols-outlined pointer" (click)="goBack()">
                 close
             </span>
         </div>
@@ -24,11 +24,67 @@
 </div>
 <div class="full-width">
     <mat-tab-group>
-        <mat-tab label="Transaction History" class="primary">
-            <p class="no-margin primary margin-left-10px">Previous 7 days</p>
+        <mat-tab label="Transaction History" class="primary gap-1em">
+            <p class="no-margin primary margin-left-10px">Previous 7 days</p><br>
+            <mat-card class="margin-left-10px margin-right-10px border-radius-10px">
+                <div class="flex space-between-center">
+                    <div class="details margin-left-10px">
+                    <p class="no-margin">Checkers Green 429302*356</p>
+                    <p class="no-margin">06 May 2024</p>
+                    </div>
+                    <div>
+                        <p class="margin-right-10px">R-97.18</p>
+                    </div>
+                </div>
+            </mat-card><br>
+            <mat-card class="margin-left-10px margin-right-10px border-radius-10px">
+                <div class="flex space-between-center">
+                    <div class="details margin-left-10px">
+                    <p class="no-margin">Totel Sanel C 429302*356</p>
+                    <p class="no-margin">06 May 2024</p>
+                    </div>
+                    <div>
+                        <p class="margin-right-10px">R-29.90</p>
+                    </div>
+                </div>
+            </mat-card>
+            <p class="primary margin-left-10px">Older</p><br>
+        <mat-card class="margin-left-10px margin-right-10px border-radius-10px">
+            <div class="flex space-between-center">
+                <div class="details margin-left-10px">
+                <p class="no-margin">Totel Sanel C 429302*356</p>
+                <p class="no-margin">04 May 2024</p>
+                </div>
+                <div>
+                    <p class="margin-right-10px">R-19.70</p>
+                </div>
+            </div>
+        </mat-card><br>
+        <mat-card class="margin-left-10px margin-right-10px border-radius-10px">
+            <div class="flex space-between-center">
+                <div class="details margin-left-10px">
+                <p class="no-margin">Capitec KTheko</p>
+                <p class="no-margin">04 May 2024</p>
+                </div>
+                <div>
+                    <p class="margin-right-10px">R424.24</p>
+                </div>
+            </div>
+        </mat-card><br>
+        <mat-card class="margin-left-10px margin-right-10px border-radius-10px">
+            <div class="flex space-between-center">
+                <div class="details margin-left-10px">
+                <p class="no-margin">#Cash Withdrawl Fee Adj</p>
+                <p class="no-margin">30 April 2024</p>
+                </div>
+                <div>
+                    <p class="margin-right-10px">R-2.40</p>
+                </div>
+            </div>
+        </mat-card>
         </mat-tab>
         <mat-tab label="Account Options" class="primary">
 
         </mat-tab>
-      </mat-tab-group>
+    </mat-tab-group>
 </div>
