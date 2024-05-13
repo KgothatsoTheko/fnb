@@ -1,0 +1,57 @@
+<div class="full-height padding-10px">
+    <div class="full-width space-between-center flex margin-top-10px">
+        <div class="flex gap-1em text-center">
+            <div>
+                <span class="material-symbols-outlined pointer" (click)="goBack()">
+                    arrow_back
+                </span>
+            </div>
+            <div>
+                <p class="no-margin">Electricity</p>
+            </div>
+        </div>
+        <div class="flex gap-1em text-center">
+            <div>
+                <span class="material-symbols-outlined pointer" (click)="goBack()">
+                    close
+                </span>
+            </div>
+        </div>
+    </div>
+    <p class=""><strong>From</strong></p>
+    <mat-card class="flex row gap-1em border-radius-10px text-center padding-10px full-width">
+        <div>
+            <img src="../../../assets/card.png" alt="card" class="image ">
+        </div>
+        <div>
+            <p class="no-margin">Easy Zero</p>
+            <p class="no-margin"><strong>R800</strong></p>
+            <p class="no-margin"><small>Available</small></p>
+        </div>
+    </mat-card>
+    <p><strong>Type</strong></p>
+    <mat-card class="flex row gap-1em border-radius-10px text-center padding-10px full-width">
+        <div class="image2 center-center flex">
+            <span class="material-symbols-outlined">
+                lightbulb
+            </span>
+        </div>
+        <div>
+            <p class="no-margin">Flexi Amount</p>
+            <p class="no-margin"><strong>R20-R9999</strong></p>
+            <p class="no-margin"><small>Voucher</small></p>
+        </div>
+    </mat-card>
+    <p>Meter Number</p>
+    <input type="text" class="no-padding full-width input padding-left-5px border-box">
+    <p>Recharge Amount</p>
+    <input type="number" class="no-padding full-width input padding-left-5px border-box">
+    <p>Cellphone Number</p>
+    <div class="flex text-center input-icon">
+        <input type="number" class="full-width border-t-l-b input-icon2 padding-left-5px border-box"/>
+        <img src="../../../assets/add_circle.png" width="30px" height="30px" class="pointer"/>
+    </div>
+    <div class="bottom">
+        <button mat-flat-button class="purchase relative top">Purchase</button>
+    </div>
+</div>

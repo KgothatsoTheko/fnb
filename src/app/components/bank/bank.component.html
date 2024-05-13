@@ -38,15 +38,15 @@
             <p class="center-center flex">My cards</p>
         </div>
         <div class="flex column">
-            <mat-card class="card border-radius-10px">
-                <span class="material-symbols-outlined icons">
+            <mat-card class="card border-radius-10px" matTooltip="Coming Soon">
+                <span class="material-symbols-outlined disabled">
                     description
                 </span>
             </mat-card>
             <p class="center-center flex">Statement</p>
         </div>
         <div class="flex column">
-            <mat-card class="card border-radius-10px">
+            <mat-card class="card border-radius-10px pointer" (click)="goToTransactions()">
                 <span class="material-symbols-outlined icons">
                 more_horiz
                 </span>
@@ -108,7 +108,7 @@
                     <strong>Prepaid Electricity</strong>
                     <p class="no-margin">Light up your world and Buy electricity on the App!</p>
                     <div class="end-center flex">
-                        <button mat-flat-button class="apply">Apply</button>
+                        <button mat-flat-button class="apply" >Apply</button>
                     </div>
                 </div>
               </div>
@@ -121,7 +121,7 @@
 </h3>
 <div class="center-center flex gap-1em">
     <div class="flex column text-center">
-        <mat-card class="card border-radius-10px">
+        <mat-card class="card border-radius-10px pointer" (click)="goToAirtime()">
             <span class="material-symbols-outlined icons">
                 phone_android
                 </span>
@@ -130,7 +130,7 @@
         </p>
     </div>
     <div class="flex column text-center">
-        <mat-card class="card border-radius-10px">
+        <mat-card class="card border-radius-10px pointer" (click)="goToElectricity()">
             <span class="material-symbols-outlined icons">
                 lightbulb
                 </span>
@@ -138,16 +138,16 @@
         <p class="no-margin">Electricity</p>
     </div>
     <div class="flex column text-center">
-        <mat-card class="card border-radius-10px">
-            <span class="material-symbols-outlined icons">
+        <mat-card class="card border-radius-10px" matTooltip="Coming Soon">
+            <span class="material-symbols-outlined disabled">
             casino
             </span>
         </mat-card>
         <p class="no-margin">Lotto</p>
     </div>
     <div class="flex column text-center">
-        <mat-card class="card border-radius-10px">
-            <span class="material-symbols-outlined icons">
+        <mat-card class="card border-radius-10px" matTooltip="Coming Soon">
+            <span class="material-symbols-outlined disabled">
             more_vert
             </span>
         </mat-card>
@@ -164,7 +164,7 @@
         <p class="no-margin">Just for you</p>
         </div>
         <div>
-            <button mat-flat-button class="view">View</button>
+            <button mat-flat-button class="view" matTooltip="Coming Soon">View</button>
         </div>
     </div>
 </mat-card>
@@ -178,32 +178,32 @@
                 account_balance_wallet
                 </span>
         </mat-card>
-        <p class="text-center no-margin">Pay
+        <p class="text-center no-margin">eWallet
         </p>
     </div>
     <div class="flex column text-center">
-        <mat-card class="card border-radius-10px">
-            <span class="material-symbols-outlined icons">
+        <mat-card class="card border-radius-10px" matTooltip="Coming Soon">
+            <span class="material-symbols-outlined disabled">
                 bolt
                 </span>
         </mat-card>
         <p class="no-margin">Transfer</p>
     </div>
     <div class="flex column text-center">
-        <mat-card class="card border-radius-10px">
-            <span class="material-symbols-outlined icons">
+        <mat-card class="card border-radius-10px" matTooltip="Coming Soon">
+            <span class="material-symbols-outlined disabled">
             compare_arrows
             </span>
         </mat-card>
         <p class="no-margin">Once-off</p>
     </div>
     <div class="flex column text-center">
-        <mat-card class="card border-radius-10px">
-            <span class="material-symbols-outlined icons">
+        <mat-card class="card border-radius-10px" matTooltip="Coming Soon">
+            <span class="material-symbols-outlined disabled">
             soap
             </span>
         </mat-card>
-        <p class="no-margin">eWallet</p>
+        <p class="no-margin">Pay</p>
     </div>    
 </div>
 

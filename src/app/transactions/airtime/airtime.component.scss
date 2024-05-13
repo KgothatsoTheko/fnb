@@ -1,0 +1,150 @@
+// colors
+$primary:#009997;
+
+.primary {
+    color: $primary;
+}
+
+
+// flex
+.flex {
+    display: flex;
+}
+
+// contents
+.contents {
+    display: contents;
+}
+
+.center-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.end-center {
+    justify-content: end;
+    align-items: center;
+
+}
+
+.space-between-center {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-center {
+    align-items: center;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+// width
+
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+// height
+
+.full-height {
+    height: 100%;
+}
+
+// gap
+
+.gap-05em {
+    gap: .5em;
+}
+
+.gap-1em {
+    gap: 1em;
+}
+
+.gap-2em {
+    gap: 2em;
+}
+
+// padding
+
+.padding-5px {
+    padding: 5px;
+}
+
+.padding-10px {
+    padding: 10px;
+}
+
+.padding-20px {
+    padding: 20px;
+}
+
+// margin
+
+.no-margin {
+    margin: 0;
+}
+
+.margin-left-10px {
+    margin-left: 10px;
+}
+
+.margin-right-10px {
+    margin-right: 10px;
+}
+
+.margin-top-10px {
+    margin-top: 10px;
+}
+
+
+// border
+
+.round {
+    border-radius: 50%;
+}
+
+.border-radius-10px {
+    border-radius: 10px;
+}
+
+.border-radius-20px {
+    border-radius: 10px;
+}
+
+// border box
+
+.border-box {
+    box-sizing: border-box;
+}
+
+// cards
+.card {
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.amount {
+    border: 1px solid $primary;
+    border-radius: 20px;
+    color: antiquewhite !important;
+    background-color: $primary !important;
+}
+
+
+

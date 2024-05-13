@@ -13,4 +13,12 @@ export class BankComponent {
   goToTransactions() {
     this.router.navigate(['view-transactions'])
   }
+
+  goToAirtime() {
+    this.router.navigate(['airtime'])
+  }
+
+  goToElectricity() {
+    this.router.navigate(['electricity'])
+  }
 }
